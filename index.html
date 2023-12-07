@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Navigationselemente und Interaktionsdesign</title>
+</head>
+
+<body>
+    <div id="tollesSidenav" class="sidenav">
+        <a href="#">Bedienung mit Maus und Tastatur</a>
+        <a href="#">Bedienung mit Touchscreen</a>
+    </div>
+    <div id="main">
+
+        <a href="#" onclick="toggleNav()">
+            <div class="container" onclick="burgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </a>
+
+        <div class="header">
+            <h2>Hier könnte IHRE Werbung stehen!</h2>
+            <p>und hier natürlich auch</p>
+        </div>
+
+        <div id="navbar">
+            <a class="active" href="javascript:void(0)">Home</a>
+            <a href="javascript:void(0)">Bedienung mit Maus und Tastatur</a>
+            <a href="javascript:void(0)">Bedienung mit Touchscreen</a>
+        </div>
+
+        <div class="content">
+            <h2>Hier steht wichtiger Shit!</h2>
+            <p>Sprich der ganze langweilige Bums, den eigentlicher keiner lesen will.<a href="#fn01" id="fnref01" role="doc-noteref">[1]</a></p>
+            <p>Naja spaßeshalber hab ich trotzdem mal was zusammen getippt.</p>
+            <p>Wichtige Sachen stehen hier!</p>
+            <p>wirklich</p>
+            <p>sehr</p>
+            <p>sehr</p>
+            <p>sehr</p>
+            <p>sehr</p>
+            <p>sehr</p>
+            <p>Wichtig!</p>
+            <p>Glauben Sie mir!</p>
+        </div>
+
+        <div class="Interaktionsdesign">
+            Interaktionsdesignformen Asynchron synchron Formulargedöns
+        </div>
+
+        <div class="Textlinks">
+            <h3>Textlinks</h3>
+            <p>Die einfachste Möglichkeit der Navigation bietet die Verwendung von Text. Ein Textlink wird gemäß HTML-Standard blau und unterstrichen dargestellt.<a href="#fn02" id="fnref02" role="doc-noteref">[2]</a> <a href="https://example.com/" target="_blank">https://example.com/</a>                </p>
+            <P> Aus gestalterischer Sicht wirken blau unterstrichene Links nicht ansprechend, so dass mit CSS eine an das Farbkonzept der Site angepasste Formatierung von Textlinks vorgenommen wird. Außerdem sollte der Linktext selbst eine Aussage haben.
+                <a id="schönerlink" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Klick mich und sei überrascht.</a> </p>
+        </div>
+
+        <div class="Karusselldiv">
+            <div id="Karussell" class="carousel slide" data-ride="carousel">
+                <!-- Indikatoren -->
+                <ol class="carousel-indicators">
+                    <li data-target="#Karussell" data-slide-to="0" class="active"></li>
+                    <li data-target="#Karussell" data-slide-to="1"></li>
+                    <li data-target="#Karussell" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Karussell-Bilder -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsyaCf-gP5A_Tyq4EqLyI6ZWL-p51UpkqR_A&usqp=CAU" alt="Leopard" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Bild 1</h3>
+                            <p>Hier sieht man ein wundervolles Beispiel für ein Karussell, mit dem verschiedene Bilder dargestellt werden können.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsyaCf-gP5A_Tyq4EqLyI6ZWL-p51UpkqR_A&usqp=CAU" alt="Leopard" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Bild 2</h3>
+                            <p>Das Karussell macht sich die Eigenschaft zunutze, dass mit dem Finger sehr einfach horizontale Wischbewegungen ausgeführt werden können. Dies entspricht dem Umblättern einer Buchseite. Die Technik eignet sich ideal zum Betrachten
+                                von Bildern. <a href="#fn03" id="fnref03" role="doc-noteref">[3]</a></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://www.wwf.de/fileadmin/_processed_/d/a/csm_NICHT-VERWENDEN-RUECKSPRACHE-BILDRED-loewe-rudel-massai-mara-kenia-WW22567-c-naturepl-com-Anup-Shah-WWF_0e7d082486.jpg" alt="Löwenrudel" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Bild 3</h3>
+                            <p>Man könnte auch über die Indikatoren - Punkte am unteren Ende - direkt zum gewünschten Target springen.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vor oder doch zurück -->
+                <a class="left carousel-control" href="#Karussell" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Zurück</span>
+                </a>
+                <a class="right carousel-control" href="#Karussell" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Nächstes</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        window.onscroll = function() {
+            bleibDa()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function bleibDa() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <script>
+        function burgerMenu(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+    <script>
+        /*
+                                                        function openNav() {
+
+                                                            document.getElementById("tollesSidenav").style.width = "250px";
+                                                            document.getElementById("main").style.marginLeft = "250px";
+
+                                                        }
+
+                                                        function closeNav() {
+                                                            document.getElementById("tollesSidenav").style.width = "0";
+                                                            document.getElementById("main").style.marginLeft = "0";
+                                                        }*/
+
+        function toggleNav() {
+            var element = document.getElementById("tollesSidenav");
+            if (element.style.width == "250px") {
+                document.getElementById("tollesSidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            } else {
+                document.getElementById("tollesSidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+        }
+    </script>
+
+    <footer>
+        <h2 id="footnote-label">Fußnoten</h2>
+        <ol>
+            <li id="fn01" role="doc-footnote">Armin braucht keine Quellen <a role="doc-backlink" href="#fnref01">1.</a></li>
+            <li id="fn02" role="doc-footnote">S.24 Buchdingensbummens <a role="doc-backlink" href="#fnref02">2.</a></li>
+            <li id="fn03" role="doc-footnote">S.28 Buchdingensbummens <a role="doc-backlink" href="#fnref03">3.</a></li>
+        </ol>
+    </footer>
+
+</body>
+
+</html>
