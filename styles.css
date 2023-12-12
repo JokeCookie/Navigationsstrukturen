@@ -14,8 +14,6 @@
 }
 
 .header {
-    background-color: lightgrey;
-    padding: 50px;
     text-align: center;
 }
 
@@ -92,7 +90,7 @@
 }
 
 .Karusselldiv {
-    width: 90%;
+    height: 80%;
 }
 
 .sidenav {
