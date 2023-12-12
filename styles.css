@@ -138,12 +138,12 @@
     color: red
 }
 
-a[role="doc-backlink"] {
+#doc-backlink {
     display: block;
     margin-top: 5 em;
 }
 
-a[role="doc-noteref"] {
+#doc-noteref {
     display: block;
     margin-top: 5em;
 }
