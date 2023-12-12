@@ -4,15 +4,6 @@
     }
 }
 
-@media screen and (min-width: 1001px) {
-    .container,
-    .bar1,
-    .bar2,
-    .bar3 {
-        display: none;
-    }
-}
-
 .header {
     text-align: center;
 }
@@ -21,6 +12,9 @@
     overflow: hidden;
     background-color: rgb(51, 50, 50);
     z-index: 1;
+    position: relative;
+    top: 0;
+    width: 100%;
 }
 
 #navbar a {
@@ -41,16 +35,6 @@
 #navbar a.active {
     background-color: blue;
     color: white;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky+.content {
-    padding-top: 60px;
 }
 
 .container {

@@ -201,22 +201,6 @@
         </div>
 
         <script>
-            window.onscroll = function() {
-                bleibDa()
-            };
-
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-
-            function bleibDa() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        </script>
-        <script>
             function burgerMenu(x) {
                 x.classList.toggle("change");
             }
