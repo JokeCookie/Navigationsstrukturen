@@ -94,8 +94,9 @@
     color: black;
 }
 
-.carousel-inner {
+.carousel-caption {
     color: black;
+    font-weight: bold;
 }
 
 .sidenav {
