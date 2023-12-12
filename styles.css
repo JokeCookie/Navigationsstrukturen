@@ -94,6 +94,11 @@
     color: black;
 }
 
+.carousel-caption {
+    color: black;
+    font-weight: bold;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
