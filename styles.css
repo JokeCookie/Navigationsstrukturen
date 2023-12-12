@@ -43,10 +43,6 @@
     color: white;
 }
 
-.content {
-    padding: 16px;
-}
-
 .sticky {
     position: fixed;
     top: 0;
