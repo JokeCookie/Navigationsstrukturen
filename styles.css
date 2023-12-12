@@ -126,5 +126,6 @@
 }
 
 .Formularbox {
-    box-shadow:rgb(51, 50, 50)
+    border: solid black 2px;
+
 }
