@@ -114,32 +114,28 @@
         <form>
             <h4>Kontaktformular</h4>
             <div class="form-group">
-                <p>Interaktionsobjekte ermöglichen es den Benutzern, mit den Websites zu interagieren. Sie sind definiert mit <br>
-                    Schaltflächen, Kontrollkästchen, Dropdown-Listen und beliebige Dateneingabefelder, wie das Ausfüllen von Formularen
-                    und Texteingabefelder, die es dem Benutzer ermöglichen, mit der Website im Dialog zu interagieren.
-                    Minimierte Dateneingabeabschnitte und einfache Mechanismen für die Benutzerinteraktion sollen die
-                    Benutzerfreundlichkeit der Website. <br>
-                    Um den effektiven Einsatz von Interaktionsobjekten zu gewährleisten, sollten Designer sicherstellen
-                    dass sie leicht zu erkennen sind und dass ihre Funktionen klar gekennzeichnet sind.<a href="#fn04" id="fnref04" role="doc-noteref">[4]</a>
-                    </p>
-            <div class="form-group">
-              <label>Vorname *</label> <input type="text" class="form-control" name="vorname" placeholder="Vorname" required="required">
-            </div>
-          
-            <div class="form-group">
-              <label>Nachname *</label> <input type="text" class="form-control" name="nachname" placeholder="Nachname" required="required">
-            </div>
-          
-            <div class="form-group">
-              <label>E-Mail *</label> <input type="email" class="form-control" name="email_name" placeholder="ihre@email.de">
-            </div>
-          
-            <div class="form-group">
-              <input type="submit" class="btn btn-primary" name="abschicken" value="Abschicken">
-            </div><small>Felder markiert mit * sind Pflichtfelder.</small>
-          </form>
+                <p>Interaktionsobjekte ermöglichen es den Benutzern, mit den Websites zu interagieren. Sie sind definiert mit <br> Schaltflächen, Kontrollkästchen, Dropdown-Listen und beliebige Dateneingabefelder, wie das Ausfüllen von Formularen und Texteingabefelder,
+                    die es dem Benutzer ermöglichen, mit der Website im Dialog zu interagieren. Minimierte Dateneingabeabschnitte und einfache Mechanismen für die Benutzerinteraktion sollen die Benutzerfreundlichkeit der Website. <br> Um den effektiven
+                    Einsatz von Interaktionsobjekten zu gewährleisten, sollten Designer sicherstellen dass sie leicht zu erkennen sind und dass ihre Funktionen klar gekennzeichnet sind.<a href="#fn04" id="fnref04" role="doc-noteref">[4]</a>
+                </p>
+                <div class="form-group">
+                    <label>Vorname *</label> <input type="text" class="form-control" name="vorname" placeholder="Vorname" required="required">
+                </div>
 
-          <footer>
+                <div class="form-group">
+                    <label>Nachname *</label> <input type="text" class="form-control" name="nachname" placeholder="Nachname" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label>E-Mail *</label> <input type="email" class="form-control" name="email_name" placeholder="ihre@email.de">
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" name="abschicken" value="Abschicken">
+                </div><small>Felder markiert mit * sind Pflichtfelder.</small>
+        </form>
+
+        <footer>
             <h2 id="footnote-label">Fußnoten</h2>
             <ol>
                 <li id="fn01" role="doc-footnote">Armin braucht keine Quellen <a role="doc-backlink" href="#fnref01">1.</a></li>
@@ -148,42 +144,42 @@
                 <li id="fn04" role="doc-footnote">Toraman, N.; Pekpazar, A.; Gumussoy, C.A. Conceptualization and Survey Instrument Developmentfor Website Usability. Informatics 2023,10, 75. https://doi.org/10.3390/ informatics10030075 S. 7 <a role="doc-backlink" href="#fnref04">4..</a></li>
             </ol>
         </footer>
-    </div>
+        </div>
 
 
-    <script>
-        window.onscroll = function() {
-            bleibDa()
-        };
+        <script>
+            window.onscroll = function() {
+                bleibDa()
+            };
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
 
-        function bleibDa() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
+            function bleibDa() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
             }
-        }
-    </script>
-    <script>
-        function burgerMenu(x) {
-            x.classList.toggle("change");
-        }
-    </script>
-    <script>
-        function toggleNav() {
-            var element = document.getElementById("tollesSidenav");
-            if (element.style.width == "250px") {
-                document.getElementById("tollesSidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-            } else {
-                document.getElementById("tollesSidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
+        </script>
+        <script>
+            function burgerMenu(x) {
+                x.classList.toggle("change");
             }
-        }
-    </script>
+        </script>
+        <script>
+            function toggleNav() {
+                var element = document.getElementById("tollesSidenav");
+                if (element.style.width == "250px") {
+                    document.getElementById("tollesSidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                } else {
+                    document.getElementById("tollesSidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+            }
+        </script>
 
 
 
