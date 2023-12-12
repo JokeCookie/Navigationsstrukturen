@@ -124,3 +124,7 @@
 #schönerlink {
     color: red
 }
+
+.form-group {
+    border: solid black 2px;
+}
