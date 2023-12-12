@@ -72,6 +72,7 @@
     margin: 6px 0;
     transition: 0.4s;
     border: solid white 1px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .change .bar1 {
