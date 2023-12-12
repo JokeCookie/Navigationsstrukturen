@@ -32,11 +32,6 @@
     color: black;
 }
 
-#navbar a.active {
-    background-color: blue;
-    color: white;
-}
-
 .container {
     display: inline-block;
     cursor: pointer;
