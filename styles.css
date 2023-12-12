@@ -94,6 +94,10 @@
     color: black;
 }
 
+.carousel-inner {
+    color: black;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -136,14 +140,4 @@
 
 #schönerlink {
     color: red
-}
-
-#doc-backlink {
-    display: block;
-    margin-top: 5 em;
-}
-
-#doc-noteref {
-    display: block;
-    margin-top: 5em;
 }
