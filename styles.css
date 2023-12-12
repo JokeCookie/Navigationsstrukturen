@@ -122,7 +122,8 @@
 }
 
 #schönerlink {
-    color: red
+    color: rgb(4, 51, 20);
+    text-shadow: 2px 2px 5px rgb(120, 180, 30);
 }
 
 .form-group {
