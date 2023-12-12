@@ -13,7 +13,7 @@
 
 <body>
     <div id="tollesSidenav" class="sidenav">
-            <ahref="#">Home</a>
+        <ahref="#">Home</a>
             <a href="#Karussell">Karussell</a>
             <a href="#Textlinks">Textlinks</a>
             <a href="#Formular">Formular</a>
@@ -131,11 +131,11 @@
                 </div>
 
                 <div class="form-group">
-                    <label>E-Mail *</label> <input type="email" class="form-control" name="email_name" placeholder="ihre@email.de">
+                    <label>E-Mail</label> <input type="email" class="form-control" name="email_name" placeholder="ihre@email.de">
                 </div>
 
                 <div class="form-group">
-                    <input type="submit" class="btn btn-primary" name="abschicken" value="Abschicken">
+                    <input type="submit" class="btn btn-primary" name="abschicken" value="Bei Click auf diesen Button werden keine Daten gespeichert">
                 </div><small>Felder markiert mit * sind Pflichtfelder.</small>
         </form>
 
@@ -150,22 +150,6 @@
         </footer>
         </div>
 
-        <script>
-            window.onscroll = function() {
-                bleibDa()
-            };
-
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-
-            function bleibDa() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        </script>
         <script>
             function burgerMenu(x) {
                 x.classList.toggle("change");
