@@ -128,5 +128,7 @@
 
 .Formularbox {
     border: solid black 2px;
-
+    background-color: rgb(48, 99, 81);
+    padding: 5px;
+    border-radius: 10px;
 }
