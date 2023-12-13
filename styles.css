@@ -4,6 +4,37 @@
     }
 }
  
+@media screen and (max-width: 500px) {
+    .Karusselltext{
+        position: relative;
+        font-size: 8px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+}
+ 
+.Karusselltext{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+
 .header {
     text-align: center;
 }
