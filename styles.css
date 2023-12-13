@@ -147,7 +147,7 @@ footer {
 
 .footer-Autoren {
     margin: auto;
-    max-width: 1000px; 
+    text-align: center;
 }
 
 footer p {
@@ -174,7 +174,7 @@ a[role="doc-noteref"]:hover {
 }
 
 a[role="doc-backlink"] {
-    color: rgb(7, 77, 30);
+    color: rgb(11, 165, 63);
     text-decoration: none; 
     font-weight: bold; 
 }
