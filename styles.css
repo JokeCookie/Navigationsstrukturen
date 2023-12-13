@@ -160,3 +160,25 @@ footer p {
         font-size: 14px; 
     }
 }
+
+
+a[role="doc-noteref"] {
+    color: rgb(4, 51, 20);
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+
+a[role="doc-noteref"]:hover {
+    text-decoration: underline; 
+}
+
+a[role="doc-backlink"] {
+    color: rgb(7, 77, 30);
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a[role="doc-backlink"] {
+    text-decoration: underline; 
+}
