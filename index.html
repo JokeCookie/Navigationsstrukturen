@@ -155,7 +155,7 @@
                 Einsatz von Interaktionsobjekten zu gewährleisten, sollten Designer sicherstellen dass sie leicht zu erkennen sind und dass ihre Funktionen klar gekennzeichnet sind.<a href="#fn04" id="fnref04" role="doc-noteref">[4]</a>
             </p>
             <p>Das Kontaktformular ist ein wichtiges Interaktionselement, das es Besuchern ermöglicht, direkt mit Ihnen in Verbindung zu treten. Es sollte so gestaltet sein, dass es benutzerfreundlich und ansprechend ist, um die Hemmschwelle für die Kontaktaufnahme zu senken. Durch klare Anweisungen und eine übersichtliche Anordnung der Eingabefelder kann die Benutzerfreundlichkeit erhöht werden. Zudem sollten Datenschutzbestimmungen klar kommuniziert werden, um Vertrauen bei den Nutzern zu schaffen.</p>
-        <form class="Formularbox">
+            <form class="Formularbox" onsubmit="event.preventDefault(); formSubmitted();">
                 <div class="form-group">
                     <label>Vorname *</label> <input type="text" class="form-control" name="vorname" placeholder="Vorname" required="required">
                 </div>
