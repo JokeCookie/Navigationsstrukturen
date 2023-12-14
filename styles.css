@@ -137,7 +137,9 @@
 }
 
 .sidenav a:hover {
-    color: white;
+    
+    transition: 0.3s;
+    text-shadow: rgb(48, 45, 45);
 }
 
 #main {
