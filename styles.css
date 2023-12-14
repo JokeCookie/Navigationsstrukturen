@@ -37,14 +37,13 @@
 }
  
 
-
 .header {
     text-align: center;
 }
 
 #navbar {
     overflow: hidden;
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(219, 255, 219);
     z-index: 1;
     position: relative;
     top: 0;
@@ -54,7 +53,7 @@
 #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -81,7 +80,7 @@
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: rgb(219, 255, 219);
     margin: 6px 0;
     transition: 0.4s;
     border: solid white 1px;
@@ -122,7 +121,7 @@
     z-index: 2;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgb(219, 255, 219);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -132,7 +131,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #333;
+    color:  rgb(160, 160, 160);
     display: block;
     transition: 0.3s;
 }
@@ -156,21 +155,21 @@
 }
 
 #schönerlink {
-    color: rgb(4, 51, 20);
-    text-shadow: 2px 2px 5px rgb(120, 180, 30);
+    color: rgb(191, 147, 204);
+    text-shadow: 2px 2px 5px rgb(109, 55, 125);
 }
 
 .Formularbox {
     border: solid black 2px;
-    background-color: rgb(29, 61, 50);
+    background-color: rgb(135, 129, 76);
     padding: 5px;
     border-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 footer {
-    background-color: rgb(51, 50, 50);
-    color: white; 
+    background-color: rgb(188, 176, 161);
+    color: rgb(0, 0, 0); 
     text-align: left; 
     padding: 20px; 
     margin-top: 5px;
@@ -197,7 +196,7 @@ footer p {
 
 
 a[role="doc-noteref"] {
-    color: rgb(4, 51, 20);
+    color: rgb(191, 147, 204);
     text-decoration: none; 
     font-weight: bold; 
 }
@@ -208,7 +207,7 @@ a[role="doc-noteref"]:hover {
 }
 
 a[role="doc-backlink"] {
-    color: rgb(11, 165, 63);
+    color: rgb(191, 147, 204);
     text-decoration: none; 
     font-weight: bold; 
 }
@@ -218,6 +217,9 @@ a[role="doc-backlink"] {
 }
 
 #navbild {
-    filter: sepia(100%) drop-shadow(8px 8px 10px rgb(4, 51, 20));
-    margin: 10px;
+    filter: sepia(100%) drop-shadow(8px 8px 10px rgb(191, 147, 204));
+    padding-bottom: 10px;
+    padding-right: 10px;
+    align-content: center;
+    max-width: 100%;
 }
